@@ -6,6 +6,7 @@
 - [Programas](#Programas)
   - [Calcular azulejos](#Calcular-azulejos)
   - [Calcular desconto](#Calcular-desconto)
+  - [Calcular velocidade média](#Calcular-velocidade-média)
 
 <br />
 
@@ -36,6 +37,8 @@ Este programa calcula a quantidade de azulejos necessária para cobrir uma pared
   =====================
   ```
 
+<br />
+
 ### Calcular desconto
 
 Este programa calcula o total de uma compra a partir dos preços fornecidos, e o desconto com base nos critérios:
@@ -60,5 +63,26 @@ Este programa calcula o total de uma compra a partir dos preços fornecidos, e o
   >> Sua porcentagem de desconto é: 30%.
   >> O valor do desconto é R$ 588,87.
   >> Com isso, o valor a ser pago é R$ 1.374,03.
+  =====================
+  ```
+
+<br />
+
+### Calcular velocidade média
+
+Este programa calcula a velocidade média de um veículo a partir da distância e do tempo fornecido.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  CALCULAR VELOCIDADE MÉDIA
+
+  > Insira a distância percorrida (Km): 200
+  > Insira o tempo gasto (horas): 10
+
+  >>> Para encontrar a velocidade média dividimos a distância (200.0) pelo tempo gasto no percurso (10.0).
+
+  >> A velocidade média é de 20.0 Km/h.
   =====================
   ```
