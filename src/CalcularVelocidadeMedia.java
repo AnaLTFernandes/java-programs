@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class CalcularVelocidadeMedia {
+public class CalcularVelocidadeMedia implements IProgram {
     private Scanner scan;
 
     CalcularVelocidadeMedia(Scanner scan) {
         this.scan = scan;
     }
 
-    void run() {
+    public void run() {
         System.out.println("CALCULAR VELOCIDADE MÉDIA\n");
 
         System.out.print("> Insira a distância percorrida (Km): ");

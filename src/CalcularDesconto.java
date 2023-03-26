@@ -2,7 +2,7 @@ import java.util.Locale;
 import java.util.Scanner;
 import java.text.NumberFormat;
 
-public class CalcularDesconto {
+public class CalcularDesconto implements IProgram {
     private Scanner scan;
     private Locale localidade = new Locale("pt", "BR");
     private NumberFormat formatadorMoeda = NumberFormat.getCurrencyInstance(localidade);
@@ -11,7 +11,7 @@ public class CalcularDesconto {
         this.scan = scan;
     }
 
-    void run() {
+    public void run() {
         System.out.println("CALCULAR DESCONTO");
         System.out.println(" Insira qualquer letra ou símbolo para finalizar.\n");
 

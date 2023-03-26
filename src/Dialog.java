@@ -1,7 +1,7 @@
 import javax.swing.JOptionPane;
 
-public class Dialog {
-    void run() {
+public class Dialog implements IProgram {
+    public void run() {
         System.out.println("CAIXAS DE DIÁLOGO\n");
         System.out.println(">>> Caixas de diálogo deverão aparecer na sua tela em breve!");
 

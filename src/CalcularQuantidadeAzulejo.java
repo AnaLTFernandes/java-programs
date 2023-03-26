@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class CalcularQuantidadeAzulejo {
+public class CalcularQuantidadeAzulejo implements IProgram {
     private Scanner scan;
     private DecimalFormat formatar = new DecimalFormat("0.0");
 
@@ -9,7 +9,7 @@ public class CalcularQuantidadeAzulejo {
         this.scan = scan;
     }
 
-    void run() {
+    public void run() {
         System.out.println("CALCULAR QUANTIDADE DE AZULEJOS\n");
 
         System.out.print("> Informe a altura da parede (m): ");
