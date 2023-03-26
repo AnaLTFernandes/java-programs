@@ -7,6 +7,7 @@ public class App {
         CalcularQuantidadeAzulejo calcularQuantidadeAzulejo = new CalcularQuantidadeAzulejo(scanner);
         CalcularDesconto calcularDesconto = new CalcularDesconto(scanner);
         CalcularVelocidadeMedia calcularVelocidadeMedia = new CalcularVelocidadeMedia(scanner);
+        Dialog dialog = new Dialog();
 
         System.out.println("\nBem vindo(a)!");
         String opcao = "";
@@ -17,6 +18,7 @@ public class App {
             System.out.println(" 1 - Calcular quantidade de azulejos");
             System.out.println(" 2 - Calcular desconto");
             System.out.println(" 3 - Calcular velocidade média");
+            System.out.println(" 4 - Caixas de diálogo");
 
             System.out.print("\n> ");
             opcao = scanner.nextLine();
@@ -36,6 +38,9 @@ public class App {
                     case 3:
                         calcularVelocidadeMedia.run();
                         break;
+                    case 4:
+                        dialog.run();
+                        break;
                     default:
                         System.out.println("Nenhum programa encontrado!");
                         break;
@@ -48,8 +53,10 @@ public class App {
                 }
             }
 
-            System.out.println(">>> Pressione \"Enter\" para continuar.");
-            scanner.nextLine();
+            if (!opcao.equals("exit")) {
+                System.out.println(">>> Pressione \"Enter\" para continuar.");
+                scanner.nextLine();
+            }
         }
 
         System.out.println("\nBye! Espero te ter aqui novamente :)\n");

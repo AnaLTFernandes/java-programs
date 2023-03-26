@@ -7,6 +7,7 @@
   - [Calcular azulejos](#Calcular-azulejos)
   - [Calcular desconto](#Calcular-desconto)
   - [Calcular velocidade média](#Calcular-velocidade-média)
+  - [Caixas de diálogo](#Caixas-de-diálogo)
 
 <br />
 
@@ -86,3 +87,9 @@ Este programa calcula a velocidade média de um veículo a partir da distância 
   >> A velocidade média é de 20.0 Km/h.
   =====================
   ```
+
+<br />
+
+### Caixas de diálogo
+
+Este programa mostra três tipos de caixas de diálogo na tela: mensagem, input e confirmação.
