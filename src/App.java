@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         CalcularQuantidadeAzulejo calcularQuantidadeAzulejo = new CalcularQuantidadeAzulejo(scanner);
+        CalcularDesconto calcularDesconto = new CalcularDesconto(scanner);
 
         System.out.println("\nBem vindo(a)!");
         String opcao = "";
@@ -12,24 +14,33 @@ public class App {
             System.out.println(
                     "Escolha umas das opções abaixo para rodar o programa em questão, ou digite \"exit\" para sair.");
             System.out.println(" 1 - Calcular quantidade de azulejos");
+            System.out.println(" 2 - Calcular desconto");
 
             System.out.print("\n> ");
-            opcao = scanner.next();
+            opcao = scanner.nextLine();
 
             try {
                 int opcaoNumero = Integer.parseInt(opcao);
 
                 System.out.println("\n=====================");
 
-                if (opcaoNumero == 1) {
-                    calcularQuantidadeAzulejo.run();
-                } else {
-                    System.out.println("Nenhum programa encontrado!");
+                switch (opcaoNumero) {
+                    case 1:
+                        calcularQuantidadeAzulejo.run();
+                        break;
+                    case 2:
+                        calcularDesconto.run();
+                        break;
+                    default:
+                        System.out.println("Nenhum programa encontrado!");
+                        break;
                 }
 
                 System.out.println("=====================\n");
-
-            } catch (Exception e) {
+            } catch (NumberFormatException e) {
+                if (!opcao.equals("exit")) {
+                    System.out.println("\n>> Carácter inválido! <<\n");
+                }
             }
         }
 

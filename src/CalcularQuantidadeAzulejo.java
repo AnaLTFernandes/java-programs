@@ -3,27 +3,30 @@ import java.text.DecimalFormat;
 
 public class CalcularQuantidadeAzulejo {
     private Scanner scan;
+    private DecimalFormat formatar = new DecimalFormat("0.0");
 
     CalcularQuantidadeAzulejo(Scanner scan) {
         this.scan = scan;
     }
 
     void run() {
-        DecimalFormat formatar = new DecimalFormat("0.0");
-
         System.out.println("CALCULAR QUANTIDADE DE AZULEJOS\n");
 
         System.out.print("> Informe a altura da parede (m): ");
         double alturaParede = scan.nextDouble();
+        scan.nextLine();
 
         System.out.print("> Informe a largura da parede (m): ");
         double larguraParede = scan.nextDouble();
+        scan.nextLine();
 
         System.out.print("> Informe a altura do azulejo (m): ");
         double alturaAzulejo = scan.nextDouble();
+        scan.nextLine();
 
         System.out.print("> Informe a largura do azulejo (m): ");
         double larguraAzulejo = scan.nextDouble();
+        scan.nextLine();
 
         double quantidadeAzulejo = (alturaParede * larguraParede) / (alturaAzulejo * larguraAzulejo);
 
