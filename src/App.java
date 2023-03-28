@@ -8,6 +8,7 @@ public class App {
         CalcularDesconto calcularDesconto = new CalcularDesconto(scanner);
         CalcularVelocidadeMedia calcularVelocidadeMedia = new CalcularVelocidadeMedia(scanner);
         Dialog dialog = new Dialog();
+        CompararNumeros compararNumeros = new CompararNumeros(scanner);
 
         System.out.println("\nBem vindo(a)!");
         String opcao = "";
@@ -19,6 +20,7 @@ public class App {
             System.out.println(" 2 - Calcular desconto");
             System.out.println(" 3 - Calcular velocidade média");
             System.out.println(" 4 - Caixas de diálogo");
+            System.out.println(" 5 - Comparar números");
 
             System.out.print("\n> ");
             opcao = scanner.nextLine();
@@ -40,6 +42,9 @@ public class App {
                         break;
                     case 4:
                         dialog.run();
+                        break;
+                    case 5:
+                        compararNumeros.run();
                         break;
                     default:
                         System.out.println("Nenhum programa encontrado!");

@@ -8,6 +8,7 @@
   - [Calcular desconto](#Calcular-desconto)
   - [Calcular velocidade média](#Calcular-velocidade-média)
   - [Caixas de diálogo](#Caixas-de-diálogo)
+  - [Comparar números](#Comparar-números)
 
 <br />
 
@@ -93,3 +94,26 @@ Este programa calcula a velocidade média de um veículo a partir da distância 
 ### Caixas de diálogo
 
 Este programa mostra três tipos de caixas de diálogo na tela: mensagem, input e confirmação.
+
+<br />
+
+### Comparar números
+
+Este programa compara números fornecidos e mostra no console o menor e o maior dentre todos.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  COMPARAR NÚMEROS
+
+  > Insira a quantidade de números a serem comparados: 3
+
+  > Insira o 1° número inteiro: 2
+  > Insira o 2° número inteiro: 1
+  > Insira o 3° número inteiro: 3
+
+  >> O menor número é: 1
+  >> O maior número é: 3
+  =====================
+  ```
