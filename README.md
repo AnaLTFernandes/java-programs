@@ -9,6 +9,7 @@
   - [Calcular velocidade média](#Calcular-velocidade-média)
   - [Caixas de diálogo](#Caixas-de-diálogo)
   - [Comparar números](#Comparar-números)
+  - [Jogo de álgebra](#Jogo-de-álgebra)
 
 <br />
 
@@ -115,5 +116,39 @@ Este programa compara números fornecidos e mostra no console o menor e o maior 
 
   >> O menor número é: 1
   >> O maior número é: 3
+  =====================
+  ```
+
+<br />
+
+### Jogo de álgebra
+
+Este programa é um jogo cujo objetivo é identificar o valor de "x" na expressão algébrica criada.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  JOGO DE ÁLGEBRA
+   Descubra o valor de X.
+   Digite "404" para finalizar o jogo.
+
+
+  1) 2x * 3 = 48
+  > O valor de X é: 8
+
+  >> Parabéns, você acertou!
+
+  2) 5x + 8 = 28
+  > O valor de X é: 7
+
+  >> Que pena, a resposta era: 4
+
+  3) 4x - 8 = 20
+  > O valor de X é: 404
+
+  >> VITÓRIAS: 1
+  >> DERROTAS: 1
+  >> TOTAL DE PARTIDAS: 2
   =====================
   ```
