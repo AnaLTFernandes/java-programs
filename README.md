@@ -10,6 +10,7 @@
   - [Caixas de diálogo](#Caixas-de-diálogo)
   - [Comparar números](#Comparar-números)
   - [Jogo de álgebra](#Jogo-de-álgebra)
+  - [Jogo de cálculo](#Jogo-de-cálculo)
 
 <br />
 
@@ -150,5 +151,57 @@ Este programa é um jogo cujo objetivo é identificar o valor de "x" na express�
   >> VITÓRIAS: 1
   >> DERROTAS: 1
   >> TOTAL DE PARTIDAS: 2
+  =====================
+  ```
+
+<br />
+
+### Jogo de cálculo
+
+Este programa é um jogo cujo objetivo é resolver as contas geradas.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  JOGO DE CÁLCULO
+   Resolva os cálculos que surgirem, mas Atenção: você possui somente 3 chances.
+   Insira '404' a qualquer momento para trocar de nível/sair.
+
+  >> Em qual nível deseja jogar?
+  1) Nível 1 (soma)
+  2) Nível 2 (subtração)
+  3) Nível 3 (multiplicação)
+  4) Nível 4 (divisão [apenas parte inteira])
+  5) Finalizar o jogo
+
+  > 1
+
+  1) 72 + 55 = 127
+
+  >> Parabéns, você acertou!
+
+  2) 1 + 96 = 1
+
+  >> Que pena, a resposta era: 97
+  >> VIDAS: 2
+
+  3) 65 + 22 = 2
+
+  >> Que pena, a resposta era: 87
+  >> VIDAS: 1
+
+  4) 92 + 34 = 3
+
+  >> Que pena, a resposta era: 126
+
+  >> Suas chances acabaram :(
+  >> Deseja continuar jogando? (s/n) n
+
+  >> Partidas: 4
+  >> Vitórias: 1
+  >> Derrotas: 3
+
+  >> PONTUAÇÃO: 200
   =====================
   ```

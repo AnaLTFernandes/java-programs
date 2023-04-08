@@ -10,6 +10,7 @@ public class App {
         Dialog dialog = new Dialog();
         CompararNumeros compararNumeros = new CompararNumeros(scanner);
         JogoAlgebra jogoAlgebra = new JogoAlgebra(scanner);
+        JogoCalculo jogoCalculo = new JogoCalculo(scanner);
 
         System.out.println("\nBem vindo(a)!");
         String opcao = "";
@@ -23,6 +24,7 @@ public class App {
             System.out.println(" 4 - Caixas de diálogo");
             System.out.println(" 5 - Comparar números");
             System.out.println(" 6 - Jogo de álgebra");
+            System.out.println(" 7 - Jogo de cálculo");
 
             System.out.print("\n> ");
             opcao = scanner.nextLine();
@@ -50,6 +52,9 @@ public class App {
                         break;
                     case 6:
                         jogoAlgebra.run();
+                        break;
+                    case 7:
+                        jogoCalculo.run();
                         break;
                     default:
                         System.out.println("Nenhum programa encontrado!");
