@@ -11,6 +11,7 @@
   - [Comparar números](#Comparar-números)
   - [Jogo de álgebra](#Jogo-de-álgebra)
   - [Jogo de cálculo](#Jogo-de-cálculo)
+  - [Jogo de acertar o número](#Jogo-de-acertar-o-número)
 
 <br />
 
@@ -203,5 +204,42 @@ Este programa é um jogo cujo objetivo é resolver as contas geradas.
   >> Derrotas: 3
 
   >> PONTUAÇÃO: 200
+  =====================
+  ```
+
+<br />
+
+### Jogo de acertar o número
+
+Este programa é um jogo cujo objetivo é acertar o número previamente gerado aleatoriamente. O jogador possui 3 tentativas. A cada tentativa uma dica é fornecida. Ao fim, uma caixa de diálogo informará a vitória ou derrota do jogador.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  JOGO DE ACERTAR O NÚMERO
+   Tente acertar o número de 0 até 9 gerado aleatoriamente.
+   ATENÇÃO: Você terá somente 3 chances.
+
+
+  > Digite um número: 5
+
+  >> Errou T-T, tente novamente.
+  >> Atenção: você só tem 2 chances.
+  >> Dica: o número digitado é maior que o número a ser adivinhado ;)
+
+
+  > Digite um número: 3
+
+  >> Errou T-T, tente novamente.
+  >> Atenção: você só tem 1 chances.
+  >> Dica: o número digitado é menor que o número a ser adivinhado ;)
+
+
+  > Digite um número: 4
+
+  [nesse momento, uma caixa de diálogo anunciará a vitória/derrota]
+
+  > Deseja continuar? (s/n) n
   =====================
   ```
