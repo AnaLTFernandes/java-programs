@@ -12,6 +12,7 @@ public class App {
         JogoAlgebra jogoAlgebra = new JogoAlgebra(scanner);
         JogoCalculo jogoCalculo = new JogoCalculo(scanner);
         JogoAcertarNumero jogoAcertarNumero = new JogoAcertarNumero(scanner);
+        ListaConvidados listaConvidados = new ListaConvidados(scanner);
 
         System.out.println("\nBem vindo(a)!");
         String opcao = "";
@@ -27,6 +28,7 @@ public class App {
             System.out.println(" 6 - Jogo de álgebra");
             System.out.println(" 7 - Jogo de cálculo");
             System.out.println(" 8 - Jogo de acertar o número");
+            System.out.println(" 9 - Lista de convidados");
 
             System.out.print("\n> ");
             opcao = scanner.nextLine();
@@ -60,6 +62,9 @@ public class App {
                         break;
                     case 8:
                         jogoAcertarNumero.run();
+                        break;
+                    case 9:
+                        listaConvidados.run();
                         break;
                     default:
                         System.out.println("Nenhum programa encontrado!");

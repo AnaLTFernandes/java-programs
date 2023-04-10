@@ -12,6 +12,7 @@
   - [Jogo de álgebra](#Jogo-de-álgebra)
   - [Jogo de cálculo](#Jogo-de-cálculo)
   - [Jogo de acertar o número](#Jogo-de-acertar-o-número)
+  - [Lista de convidados](#Lista-de-convidados)
 
 <br />
 
@@ -241,5 +242,33 @@ Este programa é um jogo cujo objetivo é acertar o número previamente gerado a
   [nesse momento, uma caixa de diálogo anunciará a vitória/derrota]
 
   > Deseja continuar? (s/n) n
+  =====================
+  ```
+
+<br />
+
+### Lista de convidados
+
+Este programa armazena em um vetor o nome de 5 convidados de uma festa e os exibe ao fim.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  LISTA DE CONVIDADOS
+   Adicione 5 convidados à sua lista
+
+  > Informe o primeiro convidado: Luana Pines
+  > Informe o segundo convidado: Carlos Moreira
+  > Informe o terceiro convidado: Gabriela Silva
+  > Informe o quarto convidado: Sandra Nunes
+  > Informe o quinto convidado: Pedro Pascal
+
+  Convidados
+   1: Luana Pines
+   2: Carlos Moreira
+   3: Gabriela Silva
+   4: Sandra Nunes
+   5: Pedro Pascal
   =====================
   ```
