@@ -14,6 +14,7 @@
   - [Jogo de acertar o número](#Jogo-de-acertar-o-número)
   - [Lista de convidados](#Lista-de-convidados)
   - [Lista de convidados PLUS](#Lista-de-convidados-PLUS)
+  - [Lista de convidados PLUS+](#Lista-de-convidados-PLUS+)
 
 <br />
 
@@ -300,5 +301,33 @@ Este programa armazena em um vetor o nome de, no máximo, 100 convidados de uma 
    - Convidado 1: Carla Rodrigues
    - Convidado 2: Amilton Dias
    - Convidado 3: Jenifer Garcia
+  =====================
+  ```
+
+<br />
+
+### Lista de convidados PLUS+
+
+Este programa armazena em um vetor o nome de, no máximo, 100 convidados de uma festa, que podem ser fornecidos continuamente, e os exibe ao fim.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  LISTA DE CONVIDADOS PLUS+
+   Insira o nome de seus convidados.
+
+  > Insira o nome do 1° convidado: Adelaide Hills
+
+  > Deseja adicionar mais nomes? [S/n] s
+
+  > Insira o nome do 2° convidado: Gregory Sampaio
+
+  > Deseja adicionar mais nomes? [S/n] n
+
+  --- Lista de convidados ---
+
+  - Convidado 1: Adelaide Hills
+  - Convidado 2: Gregory Sampaio
   =====================
   ```

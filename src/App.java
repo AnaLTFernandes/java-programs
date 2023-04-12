@@ -14,6 +14,7 @@ public class App {
         JogoAcertarNumero jogoAcertarNumero = new JogoAcertarNumero(scanner);
         ListaConvidados listaConvidados = new ListaConvidados(scanner);
         ListaConvidadosPlus listaConvidadosPlus = new ListaConvidadosPlus(scanner);
+        ListaConvidadosPlusPlus listaConvidadosPlusPlus = new ListaConvidadosPlusPlus(scanner);
 
         System.out.println("\nBem vindo(a)!");
         String opcao = "";
@@ -31,6 +32,7 @@ public class App {
             System.out.println(" 8 - Jogo de acertar o número");
             System.out.println(" 9 - Lista de convidados");
             System.out.println(" 10 - Lista de convidados PLUS");
+            System.out.println(" 11 - Lista de convidados PLUS+");
 
             System.out.print("\n> ");
             opcao = scanner.nextLine();
@@ -70,6 +72,9 @@ public class App {
                         break;
                     case 10:
                         listaConvidadosPlus.run();
+                        break;
+                    case 11:
+                        listaConvidadosPlusPlus.run();
                         break;
                     default:
                         System.out.println("Nenhum programa encontrado!");
