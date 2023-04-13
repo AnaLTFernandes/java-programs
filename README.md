@@ -14,7 +14,8 @@
   - [Jogo de acertar o número](#Jogo-de-acertar-o-número)
   - [Lista de convidados](#Lista-de-convidados)
   - [Lista de convidados PLUS](#Lista-de-convidados-PLUS)
-  - [Lista de convidados PLUS+](#Lista-de-convidados-PLUS+)
+  - [Lista de convidados PLUS 2](#Lista-de-convidados-PLUS-2)
+  - [Somar idades acima de 18 anos](#Somar-idades-acima-de-18-anos)
 
 <br />
 
@@ -306,7 +307,7 @@ Este programa armazena em um vetor o nome de, no máximo, 100 convidados de uma 
 
 <br />
 
-### Lista de convidados PLUS+
+### Lista de convidados PLUS 2
 
 Este programa armazena em um vetor o nome de, no máximo, 100 convidados de uma festa, que podem ser fornecidos continuamente, e os exibe ao fim.
 
@@ -329,5 +330,33 @@ Este programa armazena em um vetor o nome de, no máximo, 100 convidados de uma 
 
   - Convidado 1: Adelaide Hills
   - Convidado 2: Gregory Sampaio
+  =====================
+  ```
+
+<br />
+
+### Somar idades acima de 18 anos
+
+Este programa soma as idades informadas que são maiores que 18.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  SOMA MAIS 18 ANOS
+   Programa que soma as idades informadas acima de 18 anos
+
+  > Informe a idade da 1° pessoa: 20
+  > Informe a idade da 2° pessoa: 12
+  > Informe a idade da 3° pessoa: 11
+  > Informe a idade da 4° pessoa: 5
+  > Informe a idade da 5° pessoa: 17
+  > Informe a idade da 6° pessoa: 17
+  > Informe a idade da 7° pessoa: 15
+  > Informe a idade da 8° pessoa: 16
+  > Informe a idade da 9° pessoa: 18
+  > Informe a idade da 10° pessoa: 30
+
+  >> A soma das idades maiores de 18 anos é: 50
   =====================
   ```
