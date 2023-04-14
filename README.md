@@ -16,6 +16,7 @@
   - [Lista de convidados PLUS](#Lista-de-convidados-PLUS)
   - [Lista de convidados PLUS 2](#Lista-de-convidados-PLUS-2)
   - [Somar idades acima de 18 anos](#Somar-idades-acima-de-18-anos)
+  - [Olá mundo](#Olá-mundo)
 
 <br />
 
@@ -358,5 +359,19 @@ Este programa soma as idades informadas que são maiores que 18.
   > Informe a idade da 10° pessoa: 30
 
   >> A soma das idades maiores de 18 anos é: 50
+  =====================
+  ```
+
+<br />
+
+### Olá mundo
+
+Famoso Hello world :)
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  Olá, mundo!
   =====================
   ```

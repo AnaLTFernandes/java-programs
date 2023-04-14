@@ -16,6 +16,7 @@ public class App {
         ListaConvidadosPlus listaConvidadosPlus = new ListaConvidadosPlus(scanner);
         ListaConvidadosPlusPlus listaConvidadosPlusPlus = new ListaConvidadosPlusPlus(scanner);
         SomaMais18Anos somaMais18Anos = new SomaMais18Anos(scanner);
+        OlaMundo olaMundo = new OlaMundo();
 
         System.out.println("\nBem vindo(a)!");
         String opcao = "";
@@ -35,6 +36,7 @@ public class App {
             System.out.println(" 10 - Lista de convidados PLUS");
             System.out.println(" 11 - Lista de convidados PLUS+");
             System.out.println(" 12 - Somar idades acima de 18 anos");
+            System.out.println(" 13 - Olá, mundo");
 
             System.out.print("\n> ");
             opcao = scanner.nextLine();
@@ -80,6 +82,9 @@ public class App {
                         break;
                     case 12:
                         somaMais18Anos.run();
+                        break;
+                    case 13:
+                        olaMundo.run();
                         break;
                     default:
                         System.out.println("Nenhum programa encontrado!");
