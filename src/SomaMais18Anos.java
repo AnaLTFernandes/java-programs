@@ -7,6 +7,10 @@ public class SomaMais18Anos implements IProgram {
 		this.scan = scan;
 	}
 
+	public String getName() {
+		return "Somar idades acima de 18 anos";
+	}
+
 	public void run() {
 		System.out.println("SOMA MAIS 18 ANOS");
 		System.out.println(" Programa que soma as idades informadas acima de 18 anos\n");

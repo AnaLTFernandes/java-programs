@@ -11,6 +11,10 @@ public class CalcularDesconto implements IProgram {
         this.scan = scan;
     }
 
+    public String getName() {
+        return "Calcular desconto";
+    }
+
     public void run() {
         System.out.println("CALCULAR DESCONTO");
         System.out.println(" Insira qualquer letra ou símbolo para finalizar.\n");

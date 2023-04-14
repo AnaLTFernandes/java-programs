@@ -7,6 +7,10 @@ public class CalcularVelocidadeMedia implements IProgram {
         this.scan = scan;
     }
 
+    public String getName() {
+        return "Calcular velocidade média";
+    }
+
     public void run() {
         System.out.println("CALCULAR VELOCIDADE MÉDIA\n");
 

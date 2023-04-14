@@ -7,6 +7,10 @@ public class ListaConvidadosPlus implements IProgram {
 		this.scan = scan;
 	}
 
+	public String getName() {
+		return "Lista de convidados PLUS";
+	}
+
 	private boolean ehQuantidadeConvidadosInvalida(int quantidadeConvidados) {
 		return quantidadeConvidados > 100 || quantidadeConvidados <= 0;
 	}

@@ -9,6 +9,10 @@ public class JogoCalculo implements IProgram {
         this.scan = scan;
     }
 
+    public String getName() {
+        return "Jogo de cálculo";
+    }
+
     private boolean ehNivelValido(int nivel) {
         return nivel >= 1 && nivel <= 5;
     }

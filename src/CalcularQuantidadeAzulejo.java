@@ -9,6 +9,10 @@ public class CalcularQuantidadeAzulejo implements IProgram {
         this.scan = scan;
     }
 
+    public String getName() {
+        return "Calcular quantidade de azulejos";
+    }
+
     public void run() {
         System.out.println("CALCULAR QUANTIDADE DE AZULEJOS\n");
 

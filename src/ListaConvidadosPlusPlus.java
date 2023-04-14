@@ -7,6 +7,10 @@ public class ListaConvidadosPlusPlus implements IProgram {
 		this.scan = scan;
 	}
 
+	public String getName() {
+		return "Lista de convidados PLUS+";
+	}
+
 	private boolean ehRespostaValida(String resposta) {
 		return resposta.equalsIgnoreCase("s") || resposta.equalsIgnoreCase("n");
 	}

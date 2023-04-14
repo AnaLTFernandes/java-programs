@@ -10,6 +10,10 @@ public class JogoAcertarNumero implements IProgram {
         this.scan = scan;
     }
 
+    public String getName() {
+        return "Jogo de acertar o número";
+    }
+
     private boolean ehRespostaValida(String resposta) {
         return resposta.equalsIgnoreCase("s") || resposta.equalsIgnoreCase("n");
     }

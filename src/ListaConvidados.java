@@ -7,6 +7,10 @@ public class ListaConvidados implements IProgram {
 		this.scan = scan;
 	}
 
+	public String getName() {
+		return "Lista de convidados";
+	}
+
 	public void run() {
 		String[] convidados = new String[5];
 

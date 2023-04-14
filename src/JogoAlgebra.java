@@ -9,6 +9,10 @@ public class JogoAlgebra implements IProgram {
         this.scan = scan;
     }
 
+    public String getName() {
+        return "Jogo de álgebra";
+    }
+
     public void run() {
         int vitorias = 0;
         int derrotas = 0;
@@ -26,17 +30,20 @@ public class JogoAlgebra implements IProgram {
 
             if (simboloMatematico == 0) {
                 int resultadoEquacao = multiplicadorDeX * x + y;
-                System.out.println("\n" + numeroQuestao++ + ") " + multiplicadorDeX + "x + " + y + " = " + resultadoEquacao);
+                System.out.println(
+                        "\n" + numeroQuestao++ + ") " + multiplicadorDeX + "x + " + y + " = " + resultadoEquacao);
             }
 
             else if (simboloMatematico == 1) {
                 int resultadoEquacao = multiplicadorDeX * x - y;
-                System.out.println("\n" + numeroQuestao++ + ") " + multiplicadorDeX + "x - " + y + " = " + resultadoEquacao);
+                System.out.println(
+                        "\n" + numeroQuestao++ + ") " + multiplicadorDeX + "x - " + y + " = " + resultadoEquacao);
             }
 
             else {
                 int resultadoEquacao = multiplicadorDeX * x * y;
-                System.out.println("\n" + numeroQuestao++ + ") " + multiplicadorDeX + "x * " + y + " = " + resultadoEquacao);
+                System.out.println(
+                        "\n" + numeroQuestao++ + ") " + multiplicadorDeX + "x * " + y + " = " + resultadoEquacao);
             }
 
             System.out.print("> O valor de X é: ");

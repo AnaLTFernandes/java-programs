@@ -7,6 +7,10 @@ public class CompararNumeros implements IProgram {
         this.scan = scan;
     }
 
+    public String getName() {
+        return "Comparar números";
+    }
+
     public void run() {
         System.out.println("COMPARAR NÚMEROS\n");
 
