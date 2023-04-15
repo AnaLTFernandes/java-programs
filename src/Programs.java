@@ -5,9 +5,11 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class Programs {
-    private Map<Integer, IProgram> programas = new HashMap<>();
+    private Map<Integer, IProgram> programas;
 
     Programs(Scanner scanner) {
+        programas = new HashMap<>();
+
         programas.put(1, new CalcularQuantidadeAzulejo(scanner));
         programas.put(2, new CalcularDesconto(scanner));
         programas.put(3, new CalcularVelocidadeMedia(scanner));
@@ -21,6 +23,7 @@ public class Programs {
         programas.put(11, new ListaConvidadosPlusPlus(scanner));
         programas.put(12, new SomaMais18Anos(scanner));
         programas.put(13, new OlaMundo());
+        programas.put(14, new CriarRecibo(scanner));
     }
 
     public void run(int id) {

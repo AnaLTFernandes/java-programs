@@ -17,6 +17,7 @@
   - [Lista de convidados PLUS 2](#Lista-de-convidados-PLUS-2)
   - [Somar idades acima de 18 anos](#Somar-idades-acima-de-18-anos)
   - [Olá mundo](#Olá-mundo)
+  - [Criar recibo](#Criar-recibo)
 
 <br />
 
@@ -373,5 +374,37 @@ Famoso Hello world :)
   ```bash
   =====================
   Olá, mundo!
+  =====================
+  ```
+
+<br />
+
+### Criar recibo
+
+Este programa cria o recibo de uma compra com base nos produtos, quantidades e preços unitários fornecidos.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  CRIAR RECIBO
+
+  > Informe o nome do produto: arroz
+  > Informe a quantidade de arroz: 2
+  > Informe o preço unitário do produto: 16,80
+
+  > Deseja adicionar mais itens? [S/n] s
+
+  > Informe o nome do produto: feijão
+  > Informe a quantidade de feijão: 3
+  > Informe o preço unitário do produto: 14
+
+  > Deseja adicionar mais itens? [S/n] n
+
+  --- RECIBO ---
+  N°      -   PRODUTO   -   QUANT.   -   PREÇO
+  1       -    arroz    -     2      -   R$ 16.8
+  2       -   feijão    -     3      -   R$ 14.0
+  TOTAL   -   R$ 75.6
   =====================
   ```
