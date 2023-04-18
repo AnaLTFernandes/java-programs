@@ -16,6 +16,7 @@
   - [Lista de convidados PLUS](#Lista-de-convidados-PLUS)
   - [Lista de convidados PLUS 2](#Lista-de-convidados-PLUS-2)
   - [Somar idades acima de 18 anos](#Somar-idades-acima-de-18-anos)
+  - [Somar idades](#Somar-idades)
   - [Olá mundo](#Olá-mundo)
   - [Criar recibo](#Criar-recibo)
 
@@ -360,6 +361,29 @@ Este programa soma as idades informadas que são maiores que 18.
   > Informe a idade da 10° pessoa: 30
 
   >> A soma das idades maiores de 18 anos é: 50
+  =====================
+  ```
+
+<br />
+
+### Somar idades
+
+Este programa soma a idade de cinco pessoas.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  SOMAR IDADES
+   Programa que soma a idade de cinco pessoas
+
+  > Informe a idade da 1° pessoa: 12
+  > Informe a idade da 2° pessoa: 27
+  > Informe a idade da 3° pessoa: 19
+  > Informe a idade da 4° pessoa: 54
+  > Informe a idade da 5° pessoa: 62
+
+  >> A soma de todas as idades é: 174
   =====================
   ```
 
