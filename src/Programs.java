@@ -23,8 +23,9 @@ public class Programs {
         programas.put(11, new ListaConvidadosPlusPlus(scanner));
         programas.put(12, new SomaMais18Anos(scanner));
         programas.put(13, new SomaIdades(scanner));
-        programas.put(14, new OlaMundo());
-        programas.put(15, new CriarRecibo(scanner));
+        programas.put(14, new SomaTotalCompra(scanner));
+        programas.put(15, new OlaMundo());
+        programas.put(16, new CriarRecibo(scanner));
     }
 
     public void run(int id) {

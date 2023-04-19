@@ -17,6 +17,7 @@
   - [Lista de convidados PLUS 2](#Lista-de-convidados-PLUS-2)
   - [Somar idades acima de 18 anos](#Somar-idades-acima-de-18-anos)
   - [Somar idades](#Somar-idades)
+  - [Somar total de uma compra](#Somar-total-de-uma-compra)
   - [Olá mundo](#Olá-mundo)
   - [Criar recibo](#Criar-recibo)
 
@@ -384,6 +385,28 @@ Este programa soma a idade de cinco pessoas.
   > Informe a idade da 5° pessoa: 62
 
   >> A soma de todas as idades é: 174
+  =====================
+  ```
+
+<br />
+
+### Somar total de uma compra
+
+Este programa soma o total absoluto de uma compra a partir dos preços fornecidos.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  SOMAR TOTAL DE UMA COMPRA
+
+  > Informe a quantidade de produtos comprados: 3
+
+  > Informe o preço do 1° produto: 10
+  > Informe o preço do 2° produto: 2,99
+  > Informe o preço do 3° produto: 12,50       
+
+  >> O total da compra é: R$ 25,49
   =====================
   ```
 
