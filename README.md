@@ -20,6 +20,7 @@
   - [Somar total de uma compra](#Somar-total-de-uma-compra)
   - [Olá mundo](#Olá-mundo)
   - [Criar recibo](#Criar-recibo)
+  - [Tabuada](#Tabuada)
 
 <br />
 
@@ -453,5 +454,35 @@ Este programa cria o recibo de uma compra com base nos produtos, quantidades e p
   1       -    arroz    -     2      -   R$ 16.8
   2       -   feijão    -     3      -   R$ 14.0
   TOTAL   -   R$ 75.6
+  =====================
+  ```
+
+<br />
+
+### Tabuada
+
+Este programa imprime no terminal a tabuada do número desejado.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  TABUADA
+
+  > Indique o número que deseja a tabuada: [1-10] 7
+
+  Tabuada do 7:
+  7 * 1 = 7
+  7 * 2 = 14
+  7 * 3 = 21
+  7 * 4 = 28
+  7 * 5 = 35
+  7 * 6 = 42
+  7 * 7 = 49
+  7 * 8 = 56
+  7 * 9 = 63
+  7 * 10 = 70
+
+  > Deseja ver mais alguma tabuada? [S/n] n
   =====================
   ```

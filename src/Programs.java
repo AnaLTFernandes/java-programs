@@ -26,6 +26,7 @@ public class Programs {
         programas.put(14, new SomaTotalCompra(scanner));
         programas.put(15, new OlaMundo());
         programas.put(16, new CriarRecibo(scanner));
+        programas.put(17, new Tabuada(scanner));
     }
 
     public void run(int id) {
