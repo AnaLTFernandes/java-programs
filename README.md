@@ -21,6 +21,7 @@
   - [Olá mundo](#Olá-mundo)
   - [Criar recibo](#Criar-recibo)
   - [Tabuada](#Tabuada)
+  - [Classificar idade](#Classificar-idade)
 
 <br />
 
@@ -484,5 +485,30 @@ Este programa imprime no terminal a tabuada do número desejado.
   7 * 10 = 70
 
   > Deseja ver mais alguma tabuada? [S/n] n
+  =====================
+  ```
+
+<br />
+
+### Classificar idade
+
+Este programa classifica a idade do usuário com base no ano de seu nascimento.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  CLASSIFICAR IDADE
+
+  > Por favor, informe seu ano de nascimento: [4 dígitos] 2004
+
+  >> Sua idade aproximada é: 19
+
+  >> É idoso: false
+  >> É criança: false
+  >> É adulto: true
+  >> É adolescente: false
+  >> É debutante: false
+  >> É eleitor: true
   =====================
   ```

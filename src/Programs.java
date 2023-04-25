@@ -27,6 +27,7 @@ public class Programs {
         programas.put(15, new OlaMundo());
         programas.put(16, new CriarRecibo(scanner));
         programas.put(17, new Tabuada(scanner));
+        programas.put(18, new ClassificarIdade(scanner));
     }
 
     public void run(int id) {
