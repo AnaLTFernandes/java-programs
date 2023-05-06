@@ -22,6 +22,7 @@
   - [Criar recibo](#Criar-recibo)
   - [Tabuada](#Tabuada)
   - [Classificar idade](#Classificar-idade)
+  - [Triângulo I](#Triângulo-I)
 
 <br />
 
@@ -510,5 +511,28 @@ Este programa classifica a idade do usuário com base no ano de seu nascimento.
   >> É adolescente: false
   >> É debutante: false
   >> É eleitor: true
+  =====================
+  ```
+
+<br />
+
+### Triângulo I
+
+Este programa imprime um triângulo como o do exemplo abaixo no terminal.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  *
+  **
+  ***
+  ****
+  *****
+  ******
+  *******
+  ********
+  *********
+  **********
   =====================
   ```
