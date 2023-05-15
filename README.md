@@ -24,6 +24,7 @@
   - [Classificar idade](#Classificar-idade)
   - [Triângulo I](#Triângulo-I)
   - [Triângulo II](#Triângulo-II)
+  - [Triângulo III](#Triângulo-III)
 
 <br />
 
@@ -558,5 +559,28 @@ Este programa imprime um triângulo como o do exemplo abaixo no terminal.
   ###
   ##
   #
+  =====================
+  ```
+
+<br />
+
+### Triângulo III
+
+Este programa imprime um triângulo como o do exemplo abaixo no terminal.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  **********
+   *********
+    ********
+     *******
+      ******
+       *****
+        ****
+         ***
+          **
+           *
   =====================
   ```

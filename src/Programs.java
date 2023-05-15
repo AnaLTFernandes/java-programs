@@ -30,6 +30,7 @@ public class Programs {
         programas.put(18, new ClassificarIdade(scanner));
         programas.put(19, new TrianguloI());
         programas.put(20, new TrianguloII());
+        programas.put(21, new TrianguloIII());
     }
 
     public void run(int id) {
