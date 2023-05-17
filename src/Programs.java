@@ -31,6 +31,7 @@ public class Programs {
         programas.put(19, new TrianguloI());
         programas.put(20, new TrianguloII());
         programas.put(21, new TrianguloIII());
+        programas.put(22, new TrianguloIV());
     }
 
     public void run(int id) {

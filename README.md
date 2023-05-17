@@ -25,6 +25,7 @@
   - [Triângulo I](#Triângulo-I)
   - [Triângulo II](#Triângulo-II)
   - [Triângulo III](#Triângulo-III)
+  - [Triângulo IV](#Triângulo-IV)
 
 <br />
 
@@ -582,5 +583,28 @@ Este programa imprime um triângulo como o do exemplo abaixo no terminal.
          ***
           **
            *
+  =====================
+  ```
+
+<br />
+
+### Triângulo IV
+
+Este programa imprime um triângulo como o do exemplo abaixo no terminal.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+           #
+          ##
+         ###
+        ####
+       #####
+      ######
+     #######
+    ########
+   #########
+  ##########
   =====================
   ```
