@@ -4,28 +4,28 @@
 
 - [Sobre](##Sobre)
 - [Programas](#Programas)
-  - [Calcular azulejos](#Calcular-azulejos)
-  - [Calcular desconto](#Calcular-desconto)
-  - [Calcular velocidade média](#Calcular-velocidade-média)
-  - [Caixas de diálogo](#Caixas-de-diálogo)
-  - [Comparar números](#Comparar-números)
-  - [Jogo de álgebra](#Jogo-de-álgebra)
-  - [Jogo de cálculo](#Jogo-de-cálculo)
-  - [Jogo de acertar o número](#Jogo-de-acertar-o-número)
-  - [Lista de convidados](#Lista-de-convidados)
-  - [Lista de convidados PLUS](#Lista-de-convidados-PLUS)
-  - [Lista de convidados PLUS 2](#Lista-de-convidados-PLUS-2)
-  - [Somar idades acima de 18 anos](#Somar-idades-acima-de-18-anos)
-  - [Somar idades](#Somar-idades)
-  - [Somar total de uma compra](#Somar-total-de-uma-compra)
-  - [Olá mundo](#Olá-mundo)
-  - [Criar recibo](#Criar-recibo)
-  - [Tabuada](#Tabuada)
-  - [Classificar idade](#Classificar-idade)
-  - [Triângulo I](#Triângulo-I)
-  - [Triângulo II](#Triângulo-II)
-  - [Triângulo III](#Triângulo-III)
-  - [Triângulo IV](#Triângulo-IV)
+   - [Caixas de diálogo](#Caixas-de-diálogo)
+   - [Calcular azulejos](#Calcular-azulejos)
+   - [Calcular desconto](#Calcular-desconto)
+   - [Calcular velocidade média](#Calcular-velocidade-média)
+   - [Classificar idade](#Classificar-idade)
+   - [Comparar números](#Comparar-números)
+   - [Criar recibo](#Criar-recibo)
+   - [Jogo de acertar o número](#Jogo-de-acertar-o-número)
+   - [Jogo de cálculo](#Jogo-de-cálculo)
+   - [Jogo de álgebra](#Jogo-de-álgebra)
+   - [Lista de convidados](#Lista-de-convidados)
+   - [Lista de convidados PLUS](#Lista-de-convidados-PLUS)
+   - [Lista de convidados PLUS 2](#Lista-de-convidados-PLUS-2)
+   - [Olá mundo](#Olá-mundo)
+   - [Somar idades acima de 18 anos](#Somar-idades-acima-de-18-anos)
+   - [Somar idades](#Somar-idades)
+   - [Somar total de uma compra](#Somar-total-de-uma-compra)
+   - [Tabuada](#Tabuada)
+   - [Triângulo I](#Triângulo-I)
+   - [Triângulo II](#Triângulo-II)
+   - [Triângulo III](#Triângulo-III)
+   - [Triângulo IV](#Triângulo-IV)
 
 <br />
 
@@ -36,6 +36,12 @@ Java Programs é um programa que agrupa e executa os simples exercícios que fiz
 <br />
 
 ## Programas
+
+### Caixas de diálogo
+
+Este programa mostra três tipos de caixas de diálogo na tela: mensagem, input e confirmação.
+
+<br />
 
 ### Calcular azulejos
 
@@ -108,9 +114,28 @@ Este programa calcula a velocidade média de um veículo a partir da distância 
 
 <br />
 
-### Caixas de diálogo
+### Classificar idade
 
-Este programa mostra três tipos de caixas de diálogo na tela: mensagem, input e confirmação.
+Este programa classifica a idade do usuário com base no ano de seu nascimento.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  CLASSIFICAR IDADE
+
+  > Por favor, informe seu ano de nascimento: [4 dígitos] 2004
+
+  >> Sua idade aproximada é: 19
+
+  >> É idoso: false
+  >> É criança: false
+  >> É adulto: true
+  >> É adolescente: false
+  >> É debutante: false
+  >> É eleitor: true
+  =====================
+  ```
 
 <br />
 
@@ -137,35 +162,70 @@ Este programa compara números fornecidos e mostra no console o menor e o maior 
 
 <br />
 
-### Jogo de álgebra
+### Criar recibo
 
-Este programa é um jogo cujo objetivo é identificar o valor de "x" na expressão algébrica criada.
+Este programa cria o recibo de uma compra com base nos produtos, quantidades e preços unitários fornecidos.
 
 - Exemplo de saída:
 
   ```bash
   =====================
-  JOGO DE ÁLGEBRA
-   Descubra o valor de X.
-   Digite "404" para finalizar o jogo.
+  CRIAR RECIBO
+
+  > Informe o nome do produto: arroz
+  > Informe a quantidade de arroz: 2
+  > Informe o preço unitário do produto: 16,80
+
+  > Deseja adicionar mais itens? [S/n] s
+
+  > Informe o nome do produto: feijão
+  > Informe a quantidade de feijão: 3
+  > Informe o preço unitário do produto: 14
+
+  > Deseja adicionar mais itens? [S/n] n
+
+  --- RECIBO ---
+  N°      -   PRODUTO   -   QUANT.   -   PREÇO
+  1       -    arroz    -     2      -   R$ 16.8
+  2       -   feijão    -     3      -   R$ 14.0
+  TOTAL   -   R$ 75.6
+  =====================
+  ```
+
+<br />
+
+### Jogo de acertar o número
+
+Este programa é um jogo cujo objetivo é acertar o número previamente gerado aleatoriamente. O jogador possui 3 tentativas. A cada tentativa uma dica é fornecida. Ao fim, uma caixa de diálogo informará a vitória ou derrota do jogador.
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  JOGO DE ACERTAR O NÚMERO
+   Tente acertar o número de 0 até 9 gerado aleatoriamente.
+   ATENÇÃO: Você terá somente 3 chances.
 
 
-  1) 2x * 3 = 48
-  > O valor de X é: 8
+  > Digite um número: 5
 
-  >> Parabéns, você acertou!
+  >> Errou T-T, tente novamente.
+  >> Atenção: você só tem 2 chances.
+  >> Dica: o número digitado é maior que o número a ser adivinhado ;)
 
-  2) 5x + 8 = 28
-  > O valor de X é: 7
 
-  >> Que pena, a resposta era: 4
+  > Digite um número: 3
 
-  3) 4x - 8 = 20
-  > O valor de X é: 404
+  >> Errou T-T, tente novamente.
+  >> Atenção: você só tem 1 chances.
+  >> Dica: o número digitado é menor que o número a ser adivinhado ;)
 
-  >> VITÓRIAS: 1
-  >> DERROTAS: 1
-  >> TOTAL DE PARTIDAS: 2
+
+  > Digite um número: 4
+
+  [nesse momento, uma caixa de diálogo anunciará a vitória/derrota]
+
+  > Deseja continuar? (s/n) n
   =====================
   ```
 
@@ -223,38 +283,35 @@ Este programa é um jogo cujo objetivo é resolver as contas geradas.
 
 <br />
 
-### Jogo de acertar o número
+### Jogo de álgebra
 
-Este programa é um jogo cujo objetivo é acertar o número previamente gerado aleatoriamente. O jogador possui 3 tentativas. A cada tentativa uma dica é fornecida. Ao fim, uma caixa de diálogo informará a vitória ou derrota do jogador.
+Este programa é um jogo cujo objetivo é identificar o valor de "x" na expressão algébrica criada.
 
 - Exemplo de saída:
 
   ```bash
   =====================
-  JOGO DE ACERTAR O NÚMERO
-   Tente acertar o número de 0 até 9 gerado aleatoriamente.
-   ATENÇÃO: Você terá somente 3 chances.
+  JOGO DE ÁLGEBRA
+   Descubra o valor de X.
+   Digite "404" para finalizar o jogo.
 
 
-  > Digite um número: 5
+  1) 2x * 3 = 48
+  > O valor de X é: 8
 
-  >> Errou T-T, tente novamente.
-  >> Atenção: você só tem 2 chances.
-  >> Dica: o número digitado é maior que o número a ser adivinhado ;)
+  >> Parabéns, você acertou!
 
+  2) 5x + 8 = 28
+  > O valor de X é: 7
 
-  > Digite um número: 3
+  >> Que pena, a resposta era: 4
 
-  >> Errou T-T, tente novamente.
-  >> Atenção: você só tem 1 chances.
-  >> Dica: o número digitado é menor que o número a ser adivinhado ;)
+  3) 4x - 8 = 20
+  > O valor de X é: 404
 
-
-  > Digite um número: 4
-
-  [nesse momento, uma caixa de diálogo anunciará a vitória/derrota]
-
-  > Deseja continuar? (s/n) n
+  >> VITÓRIAS: 1
+  >> DERROTAS: 1
+  >> TOTAL DE PARTIDAS: 2
   =====================
   ```
 
@@ -345,6 +402,20 @@ Este programa armazena em um vetor o nome de, no máximo, 100 convidados de uma 
 
 <br />
 
+### Olá mundo
+
+Famoso Hello world :)
+
+- Exemplo de saída:
+
+  ```bash
+  =====================
+  Olá, mundo!
+  =====================
+  ```
+
+<br />
+
 ### Somar idades acima de 18 anos
 
 Este programa soma as idades informadas que são maiores que 18.
@@ -418,52 +489,6 @@ Este programa soma o total absoluto de uma compra a partir dos preços fornecido
 
 <br />
 
-### Olá mundo
-
-Famoso Hello world :)
-
-- Exemplo de saída:
-
-  ```bash
-  =====================
-  Olá, mundo!
-  =====================
-  ```
-
-<br />
-
-### Criar recibo
-
-Este programa cria o recibo de uma compra com base nos produtos, quantidades e preços unitários fornecidos.
-
-- Exemplo de saída:
-
-  ```bash
-  =====================
-  CRIAR RECIBO
-
-  > Informe o nome do produto: arroz
-  > Informe a quantidade de arroz: 2
-  > Informe o preço unitário do produto: 16,80
-
-  > Deseja adicionar mais itens? [S/n] s
-
-  > Informe o nome do produto: feijão
-  > Informe a quantidade de feijão: 3
-  > Informe o preço unitário do produto: 14
-
-  > Deseja adicionar mais itens? [S/n] n
-
-  --- RECIBO ---
-  N°      -   PRODUTO   -   QUANT.   -   PREÇO
-  1       -    arroz    -     2      -   R$ 16.8
-  2       -   feijão    -     3      -   R$ 14.0
-  TOTAL   -   R$ 75.6
-  =====================
-  ```
-
-<br />
-
 ### Tabuada
 
 Este programa imprime no terminal a tabuada do número desejado.
@@ -489,31 +514,6 @@ Este programa imprime no terminal a tabuada do número desejado.
   7 * 10 = 70
 
   > Deseja ver mais alguma tabuada? [S/n] n
-  =====================
-  ```
-
-<br />
-
-### Classificar idade
-
-Este programa classifica a idade do usuário com base no ano de seu nascimento.
-
-- Exemplo de saída:
-
-  ```bash
-  =====================
-  CLASSIFICAR IDADE
-
-  > Por favor, informe seu ano de nascimento: [4 dígitos] 2004
-
-  >> Sua idade aproximada é: 19
-
-  >> É idoso: false
-  >> É criança: false
-  >> É adulto: true
-  >> É adolescente: false
-  >> É debutante: false
-  >> É eleitor: true
   =====================
   ```
 
